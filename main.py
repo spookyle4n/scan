@@ -4,8 +4,8 @@
 import threading, sys, time, random, socket, re, os
  
 if len(sys.argv) < 3:
-    print "Phone Swiper Scanner\n"
-    print "Usage: python "+sys.argv[0]+" <threads(1-100+)> <ips(1-1000+)>"
+    print("Phone Swiper Scanner\n")
+    print("Usage: python "+sys.argv[0]+" <threads(1-100+)> <ips(1-1000+)>")
     sys.exit()
  
 usernames = ["root", "admin"]
